@@ -1,0 +1,132 @@
+[
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2022-03-01T20:51:30.308Z",
+				"line": 3,
+				"name": "Test the valid login.",
+				"description": "",
+				"id": "test-the-login-functionality-of-orangehrm;test-the-valid-login.",
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 20705000000,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "user is on Loginpage",
+						"match": {
+							"location": "com.stepDefinition.LoginSteps.user_is_on_loginpage()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 244000000,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "user enters Username and Password",
+						"match": {
+							"location": "com.stepDefinition.LoginSteps.user_enters_username_and_password()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 5005000000,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "click on Login button",
+						"match": {
+							"location": "com.stepDefinition.LoginSteps.click_on_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 559000000,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "user should land on home page",
+						"match": {
+							"location": "com.stepDefinition.LoginSteps.user_should_land_on_home_page()"
+						},
+						"keyword": "Then "
+					}
+				]
+			},
+			{
+				"start_timestamp": "2022-03-01T20:51:57.106Z",
+				"line": 10,
+				"name": "Test the valid login1.",
+				"description": "",
+				"id": "test-the-login-functionality-of-orangehrm;test-the-valid-login1.",
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 8013000000,
+							"status": "passed"
+						},
+						"line": 12,
+						"name": "user is on Loginpage",
+						"match": {
+							"location": "com.stepDefinition.LoginSteps.user_is_on_loginpage()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 225000000,
+							"status": "passed"
+						},
+						"line": 13,
+						"name": "user enters Username and Password",
+						"match": {
+							"location": "com.stepDefinition.LoginSteps.user_enters_username_and_password()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 5750000000,
+							"status": "passed"
+						},
+						"line": 14,
+						"name": "click on Login button",
+						"match": {
+							"location": "com.stepDefinition.LoginSteps.click_on_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 196000000,
+							"status": "passed"
+						},
+						"line": 15,
+						"name": "user should land on home page",
+						"match": {
+							"location": "com.stepDefinition.LoginSteps.user_should_land_on_home_page()"
+						},
+						"keyword": "Then "
+					}
+				]
+			}
+		],
+		"name": "Test the Login functionality of OrangeHRM",
+		"description": "",
+		"id": "test-the-login-functionality-of-orangehrm",
+		"keyword": "Feature",
+		"uri": "file:src/main/resources/Features/Login.feature",
+		"tags": [
+		]
+	}
+]
